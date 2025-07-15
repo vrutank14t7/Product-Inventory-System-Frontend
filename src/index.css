@@ -1,0 +1,78 @@
+@font-face {
+  font-family: SF;
+  src: url("../public/fonts/SFPRODISPLAYREGULAR.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: "SF", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* :root {
+  --primary: rgba(8, 51, 68, 1);
+  --primary_light: rgba(8, 51, 68, 0.5);
+  --secondary: rgba(8, 51, 68, 1);
+  --secondary_light: rgba(8, 51, 68, 0.5);
+}
+
+/* ::-webkit-scrollbar-track {
+  background-color: var(--secondary_light);
+} */
+::-webkit-scrollbar {
+  /* display: none; */
+  width: 5px;
+  background-color: transparent;
+  /* border-radius: 8px; */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #3366ff;
+  border-radius: 8px;
+}
+
+.delete {
+  display: absolute;
+  right: 0.5rem;
+}
+
+/* .MuiGrid-container {
+  width: auto !important;
+}
+.MuiGrid-item {
+  padding: 0px !important;
+} */
+.MuiInputBase-input {
+  padding: 0px !important;
+}
+.MuiFormControl-root {
+  margin: 0px !important;
+}
+
+.defaultText .MuiInputBase-input {
+  padding: 16.5px 14px !important;
+}
+.defaultText {
+  margin-top: 16px !important;
+  margin-bottom: 8px !important;
+}
+
+.editor_dis p,
+.editor_dis h1,
+.editor_dis h2,
+.editor_dis h3,
+.editor_dis h4,
+.editor_dis h5,
+.editor_dis h6 {
+  margin: 0.5rem 0 !important;
+}
